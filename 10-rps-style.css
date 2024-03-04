@@ -1,0 +1,45 @@
+
+        h2{
+            font-size: 50px;
+        }
+        body{
+            background-color: rgb(25,25,25);
+            color: white;
+            font-family: Arial;
+            font-size: 20px;
+        }
+        .but{
+            background-color: transparent;
+            color: white;
+            border: 4px solid white;
+            font-size: 16px;
+            
+            border-radius: 50%;
+            padding: 10px 20px;
+            width: 160px;
+            height: 160px;
+            margin-right:20px;
+            cursor: pointer;
+        }
+        .but2{
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            border-color: white;
+            border-radius: 5px;
+            padding: 10px 30px;
+            cursor: pointer;
+            
+        }
+        .move-icon{
+            height: 50px;
+        }
+        .game-result{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .score{
+            margin-top: 60px;
+        }
+        
+       

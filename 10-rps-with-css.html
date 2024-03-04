@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="10-rps-style.css">
+    
+</head>
+<body>
+<p ><h2>Rock Paper Scissors</h2></p>
+
+
+    <button class = "but"
+     onclick = " 
+    let compMove = pickComputerMove();
+    playGame('Rock',compMove);    
+    "><img src="images/rock-emoji.png" class="move-icon"></button>
+
+
+    <button class = "but"
+        onclick = "
+        compMove = pickComputerMove();
+          playGame('Paper',compMove);
+        "
+    ><img src="images/paper-emoji.png" alt="" class="move-icon"></button>
+
+
+    <button class = "but"
+    
+    onclick = "
+    compMove = pickComputerMove();
+       playGame('Scissors',compMove);
+        //comparing the  moves   
+    "
+    ><img src="images/scissors-emoji.png" alt="" class="move-icon"></button>
+
+    <!--result and moves line-->
+    <p class="js-result game-result"></p>
+    <p class="js-moves">
+
+        
+    </p>
+
+    <!--score line-->
+    <p class="js-score score"></p>
+
+    <button class="but2"
+        onclick = "
+            resetScore();
+        "
+    >Reset</button>
+
+    <script src="10-rps.js"></script>
+
+
+
+</body>
+</html>
